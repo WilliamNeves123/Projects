@@ -1,0 +1,108 @@
+<html>
+   <!-- TELA DE LOADING UTILIZANDO HTML E CSS SOMENTE-->
+
+
+
+
+   <input type ="name" style="margin-left: 43%;" value="CREATED BY WILLIAM" >
+  <!-- <input type = "password" style="background-color: black;" style="color: red;">
+   -->
+   
+
+   <div class="load">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    
+</div>
+
+
+
+
+
+
+<head>
+        
+<style>
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        background: black;
+    }
+    .Load{
+
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    }
+    .Load .dot{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 10px;
+        display: inline-block;
+        background-color: blue;
+        transform: scale(0.2);
+        animation: animaçao 1.2s infinite;
+    }
+
+
+
+.dot:nth-child(2){animation-delay: 0.2s;}
+.dot:nth-child(3){animation-delay: 0.4s;}
+.dot:nth-child(4){animation-delay: 0.7s;}
+.dot:nth-child(5){animation-delay:  1s; }
+.dot:nth-child(6){animation-delay: 1.2s;}
+
+@keyframes animaçao{
+    0%, 100%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+}
+
+</style>
+
+    
+    <script>
+
+  var teste= prompt ("insira sua idade");
+
+   
+  var teste1 = prompt("Insira seu nome")
+ 
+  alert("Seu nome é "+ teste1+" Você tem " + teste+ " anos");
+  
+
+
+  
+  if(teste<18){
+      alert("você e menor de idade");
+  }else{
+      alert("Você e maior de idade");
+  }
+
+  let prop = prompt("qual seu E-mail? ");
+
+  
+
+
+
+
+
+
+    </script>
+    
+    
+
+</head>
+</html>
