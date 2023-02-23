@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    position: relative;
+    top: 20%;
+}
+
+body {
+    background-color: rgb(223, 186, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}           
+
+header {
+    color: white;
+    text-align: center;
+    margin: 15px;
+    font-size: 17pt;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    margin-inline: 35%;
+    padding: 15px;
+    border-radius: 15px;
+}                   
+
+footer{
+    text-align:center;
+    display: flex;
+    color: white;
+    margin: 15px;
+    margin-inline:46%;
+    font-size: 14pt;
+    position: absolute;
+}
+
+#Insta{ 
+    cursor: pointer; 
+    border-radius: 50%;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    background-color:  rgb(223, 186, 141);;
+
+}
+#Linkedin{   
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(223, 186, 141);;
+
+}
+#Git{   
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color:  rgb(223, 186, 141);;
+
+}
+#fotoit{ 
+    cursor: pointer; 
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+#fotoLK{ 
+    cursor: pointer; 
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+#fotoGit{ 
+    cursor: pointer; 
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+div#horario {
+    margin: 3px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 14pt;
+}
